@@ -21,6 +21,7 @@
 		62E4875018B19A4D00AD00D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E4873218B19A4D00AD00D0 /* UIKit.framework */; };
 		62E4875818B19A4D00AD00D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62E4875618B19A4D00AD00D0 /* InfoPlist.strings */; };
 		62E4875A18B19A4D00AD00D0 /* JMMRainDropGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E4875918B19A4D00AD00D0 /* JMMRainDropGridTests.m */; };
+		62E4876518B19AA100AD00D0 /* UIView+SizeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E4876418B19AA100AD00D0 /* UIView+SizeHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		62E4875518B19A4D00AD00D0 /* JMMRainDropGridTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JMMRainDropGridTests-Info.plist"; sourceTree = "<group>"; };
 		62E4875718B19A4D00AD00D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62E4875918B19A4D00AD00D0 /* JMMRainDropGridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMMRainDropGridTests.m; sourceTree = "<group>"; };
+		62E4876318B19AA100AD00D0 /* UIView+SizeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SizeHelper.h"; sourceTree = "<group>"; };
+		62E4876418B19AA100AD00D0 /* UIView+SizeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SizeHelper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				62E4873D18B19A4D00AD00D0 /* JMMAppDelegate.h */,
 				62E4873E18B19A4D00AD00D0 /* JMMAppDelegate.m */,
 				62E4874018B19A4D00AD00D0 /* Main.storyboard */,
+				62E4876318B19AA100AD00D0 /* UIView+SizeHelper.h */,
+				62E4876418B19AA100AD00D0 /* UIView+SizeHelper.m */,
 				62E4874318B19A4D00AD00D0 /* JMMViewController.h */,
 				62E4874418B19A4D00AD00D0 /* JMMViewController.m */,
 				62E4874618B19A4D00AD00D0 /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62E4873B18B19A4D00AD00D0 /* main.m in Sources */,
+				62E4876518B19AA100AD00D0 /* UIView+SizeHelper.m in Sources */,
 				62E4873F18B19A4D00AD00D0 /* JMMAppDelegate.m in Sources */,
 				62E4874518B19A4D00AD00D0 /* JMMViewController.m in Sources */,
 			);
